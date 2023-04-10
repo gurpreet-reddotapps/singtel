@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "593529703507",
+    "project_id": "singtel-d0347",
+    "storage_bucket": "singtel-d0347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593529703507:android:8b9dc543890f0f55704aa6",
+        "android_client_info": {
+          "package_name": "com.singtel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593529703507-e440ons8vd2gmcur68dnestk8blqdvdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7zyuyPC16oyI4hWUKO6IlfunQVBdKNNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593529703507-e440ons8vd2gmcur68dnestk8blqdvdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593529703507:android:e851018b998fa436704aa6",
+        "android_client_info": {
+          "package_name": "com.singtel.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593529703507-e440ons8vd2gmcur68dnestk8blqdvdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7zyuyPC16oyI4hWUKO6IlfunQVBdKNNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593529703507-e440ons8vd2gmcur68dnestk8blqdvdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
