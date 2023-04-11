@@ -51,7 +51,7 @@ function TrainingWebview({ navigation, route }) {
 
 
 
-console.log("SHJKS",`https://training-internal-cmpl.reddotapps.com.sg?token=`+user?.token?.token+"&user_id="+user?.user?.id)
+console.log("SHJKS",`https://mobile-training-singtel.reddotapps.com.sg?token=`+user?.token?.token+"&user_id="+user?.user?.id)
   
 
     return (
@@ -59,10 +59,7 @@ console.log("SHJKS",`https://training-internal-cmpl.reddotapps.com.sg?token=`+us
             <CustomHeader
                 title={"Training"}
                 backIcon
-
             />
-
-
             <WebView
              
                 fadeInDuration={250.0}
@@ -70,7 +67,7 @@ console.log("SHJKS",`https://training-internal-cmpl.reddotapps.com.sg?token=`+us
                 onLoadStart={() => setLoading(true)}
                 onLoadEnd={() => setLoading(false)}
                 source={{
-                  uri: `https://training-internal-cmpl.reddotapps.com.sg?token=`+user?.token?.token+"&user_id="+user?.user?.id
+                  uri: `https://mobile-training-singtel.reddotapps.com.sg?token=`+user?.token?.token+"&user_id="+user?.user?.id
                 }}
 
                 // source={{ uri: "https://training-internal-cmpl.reddotapps.com.sg" }}

@@ -89,7 +89,7 @@ const ForgotPassword = ({ navigation, route }) => {
             <KeyboardAvoidingView   behavior="position" >
             <Pressable style={{alignSelf:"center"}}  >
                 {/* <BigfootLogoIcon width={width / 2} height={width / 2.79} /> */}
-                <Image style={{ width: width / 2, height: width / 2 }} source={Images.logo} />
+                <Image style={{ width: width / 2, height: width / 2 ,resizeMode:"contain"}} source={Images.logo} />
             </Pressable>
             {!otpSend ? 
              <View style={{ alignItems: "center" }} >
