@@ -417,9 +417,9 @@ workflows:
                 - appstore_credentials # <-- (Includes CERTIFICATE_PRIVATE_KEY - Put your Certificate Private Key here)
                 - other
             vars:
-                XCODE_WORKSPACE: "cristofori.xcworkspace" # <-- Put the name of your Xcode workspace here
-                XCODE_SCHEME: "cristoforiDev" # <-- Put the name of your Xcode scheme here
-                BUNDLE_ID: "com.cristofori.dev" # <-- Put your Bundle Id here e.g com.domain.myapp
+                XCODE_WORKSPACE: "Singtel.xcworkspace" # <-- Put the name of your Xcode workspace here
+                XCODE_SCHEME: "Singtel" # <-- Put the name of your Xcode scheme here
+                BUNDLE_ID: "com.singtel.dev" # <-- Put your Bundle Id here e.g com.domain.myapp
                 APP_STORE_APP_ID: 6446654048 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
             node: v14.17.3
             xcode: 13.3.1
